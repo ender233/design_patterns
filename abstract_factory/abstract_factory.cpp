@@ -28,7 +28,8 @@ struct Square : public Shape
     void draw() {cout<<"square "<<id_<<": draw"<<std::endl;}
 };
 
-struct Ellipse : public Shape
+
+truct Ellipse : public Shape
 {
     void draw() {cout<<"ellipse "<<id_<<" draw"<<std::endl;}
 };
